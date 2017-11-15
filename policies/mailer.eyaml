@@ -1,0 +1,4 @@
+
+queue_url: https://sqs.eu-west-1.amazonaws.com/342150685837/sqs-custodian
+role: arn:aws:iam::342150685837:role/cloud-custodian
+from_address: slaver-custodian@outlook.com

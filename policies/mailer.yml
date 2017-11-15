@@ -1,0 +1,8 @@
+debug: True
+queue_url: https://sqs.eu-west-1.amazonaws.com/342150685837/sqs-custodian
+
+from_address: stephen.edward.laver@dnb.no
+
+region: eu-west-1
+role: arn:aws:iam::342150685837:role/cloud-custodian
+ses_region: eu-west-1
