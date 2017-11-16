@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 policies:
   - name: custodian_public_ip_check
     resource: ec2
@@ -28,3 +29,33 @@ policies:
           type: sqs
           queue: https://sqs.eu-west-1.amazonaws.com/342150685837/sqs-custodian
           region: eu-west-1
+=======
+policies:
+  - name: custodian_public_ip_check
+    resource: ec2
+    mode:
+        role: arn:aws:iam::342150685837:role/cloud-custodian
+        type: periodic
+        schedule: 'cron(0/1 * * * ? *)'
+    filters:
+      - type: value
+        key: PublicIpAddress
+        op: ne
+        value: null
+      - "tag:cloud-custodian": not-null
+      - "tag:c7n_public_ip_check": absent
+    actions:
+      - type: tag
+        key: c7n_public_ip_check
+        value: “Instance stopped due to PublicIpAddress not allowed”
+      - type: notify
+        template: default
+        priority_header: '2'
+        subject: "EC2 - Public IP Assigned - [custodian {{ account }} - {{ region }}]" 
+        to:
+          - stephen.edward.laver@dnb.no
+        transport:
+          type: sqs
+          queue: https://sqs.eu-west-1.amazonaws.com/342150685837/sqs-custodian
+          region: eu-west-1
+>>>>>>> b117d970fa57cfec467ec29bc0b29db9bc850e71
