@@ -1,0 +1,7 @@
+2017-11-13 16:21:36,528 - custodian.policy - INFO - Provisioning policy lambda custodian_public_ip_check
+2017-11-13 16:29:01,150 - custodian.policy - INFO - Provisioning policy lambda custodian_public_ip_check
+2017-11-13 16:29:01,251 - custodian.lambda - INFO - Publishing custodian policy lambda function custodian-custodian_public_ip_check
+2017-11-14 12:58:05,392 - custodian.policy - INFO - Provisioning policy lambda custodian_public_ip_check
+2017-11-15 14:05:03,693 - custodian.policy - INFO - Provisioning policy lambda custodian_public_ip_check
+2017-11-15 14:28:42,055 - custodian.policy - INFO - Provisioning policy lambda custodian_public_ip_check
+2017-11-15 14:28:42,159 - custodian.lambda - INFO - Publishing custodian policy lambda function custodian-custodian_public_ip_check

@@ -1,0 +1,16 @@
+policies:
+  - name: c7n-mailer-test
+    resource: ec2
+    filters:
+     - "tag:MailerTest": absent
+    actions:
+      - type: notify
+        template: default
+        priority_header: '2'
+        subject: testing the c7n mailer
+        to:
+          - stephen.edward.laver@dnb.no
+        transport:
+          type: sqs
+          queue: https://sqs.eu-west-1.amazonaws.com/342150685837/sqs-custodian
+          region: eu-west-1

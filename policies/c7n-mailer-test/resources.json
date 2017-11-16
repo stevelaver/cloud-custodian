@@ -1,0 +1,2708 @@
+[
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "ec2-52-209-39-114.eu-west-1.compute.amazonaws.com", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-09T13:20:13+00:00", 
+    "PublicIpAddress": "52.209.39.114", 
+    "PrivateIpAddress": "10.84.10.214", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-d9d19cbe", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-0213c26979ce1a1ce", 
+    "EnaSupport": true, 
+    "ImageId": "ami-760aaa0f", 
+    "PrivateDnsName": "ip-10-84-10-214.eu-west-1.compute.internal", 
+    "KeyName": "SSTEST", 
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-8", 
+        "GroupId": "sg-8abe1ff1"
+      }
+    ], 
+    "ClientToken": "dMHKp1510233612829", 
+    "SubnetId": "subnet-7dbb3e26", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "0a:2f:1d:44:28:7a", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-d9d19cbe", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-9dd8509d", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-10-84-10-214.eu-west-1.compute.internal", 
+            "PrivateIpAddress": "10.84.10.214", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "52.209.39.114", 
+              "PublicDnsName": "ec2-52-209-39-114.eu-west-1.compute.amazonaws.com", 
+              "IpOwnerId": "342150685837"
+            }
+          }
+        ], 
+        "PrivateDnsName": "ip-10-84-10-214.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-dec2f531", 
+          "AttachTime": "2017-11-09T13:20:13+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "launch-wizard-8", 
+            "GroupId": "sg-8abe1ff1"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "10.84.10.214", 
+        "SubnetId": "subnet-7dbb3e26", 
+        "Association": {
+          "PublicIp": "52.209.39.114", 
+          "PublicDnsName": "ec2-52-209-39-114.eu-west-1.compute.amazonaws.com", 
+          "IpOwnerId": "342150685837"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1a"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0662b1a06f99f9e52", 
+          "AttachTime": "2017-11-09T13:20:13+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "SSTEST", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "ec2-34-250-63-187.eu-west-1.compute.amazonaws.com", 
+    "Platform": "windows", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-08T09:25:29+00:00", 
+    "PublicIpAddress": "34.250.63.187", 
+    "PrivateIpAddress": "10.84.10.196", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-d9d19cbe", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-0c74085a9cf45c5f6", 
+    "EnaSupport": true, 
+    "ImageId": "ami-b23feccb", 
+    "PrivateDnsName": "ip-10-84-10-196.eu-west-1.compute.internal", 
+    "KeyName": "slaver-test", 
+    "SecurityGroups": [
+      {
+        "GroupName": "slaver-ec2-test1", 
+        "GroupId": "sg-145b446c"
+      }
+    ], 
+    "ClientToken": "GyunJ1507722709044", 
+    "SubnetId": "subnet-7dbb3e26", 
+    "InstanceType": "t2.medium", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "0a:1b:b1:23:cb:28", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-d9d19cbe", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-8b55698a", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-10-84-10-196.eu-west-1.compute.internal", 
+            "PrivateIpAddress": "10.84.10.196", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "34.250.63.187", 
+              "PublicDnsName": "ec2-34-250-63-187.eu-west-1.compute.amazonaws.com", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "PrivateDnsName": "ip-10-84-10-196.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-8b387af7", 
+          "AttachTime": "2017-10-11T11:51:49+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "slaver-ec2-test1", 
+            "GroupId": "sg-145b446c"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "10.84.10.196", 
+        "SubnetId": "subnet-7dbb3e26", 
+        "Association": {
+          "PublicIp": "34.250.63.187", 
+          "PublicDnsName": "ec2-34-250-63-187.eu-west-1.compute.amazonaws.com", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1a"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/sda1", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-050e9f294ab1c6a96", 
+          "AttachTime": "2017-10-11T11:51:50+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/sda1", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "CSI-WinDev", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "PublicDnsName": "", 
+    "Platform": "windows", 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-07T12:55:53+00:00", 
+    "PrivateIpAddress": "192.168.1.9", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-00fdac67", 
+    "StateTransitionReason": "User initiated (2017-11-10 13:23:51 GMT)", 
+    "InstanceId": "i-0ef864cfa47deebb8", 
+    "EnaSupport": true, 
+    "ImageId": "ami-e92fec90", 
+    "PrivateDnsName": "ip-192-168-1-9.eu-west-1.compute.internal", 
+    "KeyName": "caf-test-kp", 
+    "SecurityGroups": [
+      {
+        "GroupName": "CAF-Test-SG01", 
+        "GroupId": "sg-ef01eb94"
+      }
+    ], 
+    "ClientToken": "mLPDT1508446693822", 
+    "SubnetId": "subnet-bdf876e6", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "0a:49:6f:18:44:e4", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-00fdac67", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-f96782f9", 
+        "PrivateIpAddresses": [
+          {
+            "Primary": true, 
+            "PrivateIpAddress": "192.168.1.9"
+          }
+        ], 
+        "SubnetId": "subnet-bdf876e6", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-262f91c9", 
+          "AttachTime": "2017-10-19T20:58:14+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "CAF-Test-SG01", 
+            "GroupId": "sg-ef01eb94"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "192.168.1.9"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1a"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/sda1", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-00947170d1931dd18", 
+          "AttachTime": "2017-10-19T20:58:15+00:00"
+        }
+      }, 
+      {
+        "DeviceName": "xvdf", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": false, 
+          "VolumeId": "vol-012b3b38457349379", 
+          "AttachTime": "2017-10-21T15:22:14+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJCPLUZCFP5DL5HWQ6", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/CAF-Test-IAM"
+    }, 
+    "RootDeviceName": "/dev/sda1", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "CAF-Test-VM01", 
+        "Key": "Name"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "ec2-34-241-96-92.eu-west-1.compute.amazonaws.com", 
+    "Platform": "windows", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-10-27T05:42:08+00:00", 
+    "PublicIpAddress": "34.241.96.92", 
+    "PrivateIpAddress": "172.31.24.239", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-27db9640", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-04dcba097904de9a3", 
+    "EnaSupport": true, 
+    "ImageId": "ami-3b18ca42", 
+    "PrivateDnsName": "ip-172-31-24-239.eu-west-1.compute.internal", 
+    "KeyName": "caf-keypair", 
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-2", 
+        "GroupId": "sg-cae8f1b2"
+      }
+    ], 
+    "ClientToken": "ZfYKD1509082927948", 
+    "SubnetId": "subnet-c557148c", 
+    "InstanceType": "t2.medium", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "06:a1:fc:33:40:b4", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-27db9640", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-655d325b", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-172-31-24-239.eu-west-1.compute.internal", 
+            "PrivateIpAddress": "172.31.24.239", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "34.241.96.92", 
+              "PublicDnsName": "ec2-34-241-96-92.eu-west-1.compute.amazonaws.com", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "PrivateDnsName": "ip-172-31-24-239.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-7fbe2493", 
+          "AttachTime": "2017-10-27T05:42:08+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "launch-wizard-2", 
+            "GroupId": "sg-cae8f1b2"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "172.31.24.239", 
+        "SubnetId": "subnet-c557148c", 
+        "Association": {
+          "PublicIp": "34.241.96.92", 
+          "PublicDnsName": "ec2-34-241-96-92.eu-west-1.compute.amazonaws.com", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1c"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/sda1", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0408a8456551f4e5e", 
+          "AttachTime": "2017-10-27T05:42:09+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/sda1", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "win-test", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "enabled"
+    }, 
+    "PublicDnsName": "ec2-52-211-5-109.eu-west-1.compute.amazonaws.com", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-10-20T19:18:50+00:00", 
+    "PublicIpAddress": "52.211.5.109", 
+    "PrivateIpAddress": "172.31.28.59", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-27db9640", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-0d47b8c82d4260d56", 
+    "EnaSupport": true, 
+    "ImageId": "ami-13f7226a", 
+    "PrivateDnsName": "ip-172-31-28-59.eu-west-1.compute.internal", 
+    "KeyName": "caf-keypair", 
+    "SecurityGroups": [
+      {
+        "GroupName": "default", 
+        "GroupId": "sg-8cafbcf4"
+      }
+    ], 
+    "ClientToken": "b523d9b4-74b9-4730-8762-da20428fffe1_subnet-c557148c_1", 
+    "SubnetId": "subnet-c557148c", 
+    "InstanceType": "m4.2xlarge", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "06:42:9e:07:99:e8", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-27db9640", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-ae169b90", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-172-31-28-59.eu-west-1.compute.internal", 
+            "PrivateIpAddress": "172.31.28.59", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "52.211.5.109", 
+              "PublicDnsName": "ec2-52-211-5-109.eu-west-1.compute.amazonaws.com", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "PrivateDnsName": "ip-172-31-28-59.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-4d3c94a1", 
+          "AttachTime": "2017-10-20T19:18:50+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "default", 
+            "GroupId": "sg-8cafbcf4"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "172.31.28.59", 
+        "SubnetId": "subnet-c557148c", 
+        "Association": {
+          "PublicIp": "52.211.5.109", 
+          "PublicDnsName": "ec2-52-211-5-109.eu-west-1.compute.amazonaws.com", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1c"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-025771f9b068c9d10", 
+          "AttachTime": "2017-10-20T19:18:51+00:00"
+        }
+      }, 
+      {
+        "DeviceName": "/dev/xvdcz", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-039caeb6bbd223687", 
+          "AttachTime": "2017-10-20T19:18:51+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJ34BUFC647MTDXLGY", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/ecsInstanceRole"
+    }, 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "EC2ContainerService-CICD-Toolset-Cluster-EcsInstanceAsg-1HV8EQH9CR49Q", 
+        "Key": "aws:autoscaling:groupName"
+      }, 
+      {
+        "Value": "EC2ContainerService-CICD-Toolset-Cluster", 
+        "Key": "aws:cloudformation:stack-name"
+      }, 
+      {
+        "Value": "This instance is the part of the Auto Scaling group which was created through ECS Console", 
+        "Key": "Description"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "arn:aws:cloudformation:eu-west-1:342150685837:stack/EC2ContainerService-CICD-Toolset-Cluster/d8ee1fe0-ae5f-11e7-8478-503ac9eaaafd", 
+        "Key": "aws:cloudformation:stack-id"
+      }, 
+      {
+        "Value": "EcsInstanceAsg", 
+        "Key": "aws:cloudformation:logical-id"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "ECS Instance - EC2ContainerService-CICD-Toolset-Cluster", 
+        "Key": "Name"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "PublicDnsName": "", 
+    "Platform": "windows", 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-10-28T19:02:49+00:00", 
+    "PrivateIpAddress": "192.168.1.41", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-00fdac67", 
+    "StateTransitionReason": "User initiated (2017-10-28 21:37:24 GMT)", 
+    "InstanceId": "i-0a19cee735839e1f5", 
+    "EnaSupport": true, 
+    "ImageId": "ami-b7e93bce", 
+    "PrivateDnsName": "ip-192-168-1-41.eu-west-1.compute.internal", 
+    "KeyName": "caf-test-kp", 
+    "SecurityGroups": [
+      {
+        "GroupName": "CAF-Test-SG02", 
+        "GroupId": "sg-e759999c"
+      }
+    ], 
+    "ClientToken": "euLoJ1509217368885", 
+    "SubnetId": "subnet-d98cd8be", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "02:30:84:46:4d:20", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-00fdac67", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-f5c296d9", 
+        "PrivateIpAddresses": [
+          {
+            "Primary": true, 
+            "PrivateIpAddress": "192.168.1.41"
+          }
+        ], 
+        "SubnetId": "subnet-d98cd8be", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-f1dca310", 
+          "AttachTime": "2017-10-28T19:02:49+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "CAF-Test-SG02", 
+            "GroupId": "sg-e759999c"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "192.168.1.41"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1b"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/sda1", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0bfeac1802671dec5", 
+          "AttachTime": "2017-10-28T19:02:50+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJCPLUZCFP5DL5HWQ6", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/CAF-Test-IAM"
+    }, 
+    "RootDeviceName": "/dev/sda1", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "CAF-Test-VM02", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "enabled"
+    }, 
+    "PublicDnsName": "", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-11T13:58:35+00:00", 
+    "PublicIpAddress": "34.241.31.135", 
+    "PrivateIpAddress": "192.168.1.38", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-00fdac67", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-0db63d08e64e80663", 
+    "EnaSupport": true, 
+    "ImageId": "ami-d65dfbaf", 
+    "PrivateDnsName": "ip-192-168-1-38.eu-west-1.compute.internal", 
+    "KeyName": "GaneshS", 
+    "SecurityGroups": [
+      {
+        "GroupName": "EC2ContainerService-Caf-test-cluster-nov11-EcsSecurityGroup-G1RNEBRWXHA6", 
+        "GroupId": "sg-4a70dc31"
+      }
+    ], 
+    "ClientToken": "260a1e6b-4c56-453d-90b3-8458243e81fa_subnet-d98cd8be_1", 
+    "SubnetId": "subnet-d98cd8be", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "02:63:5e:6f:ed:dc", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-00fdac67", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-20948a0c", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateIpAddress": "192.168.1.38", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "34.241.31.135", 
+              "PublicDnsName": "", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "SubnetId": "subnet-d98cd8be", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-ac93a14d", 
+          "AttachTime": "2017-11-11T13:58:35+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "EC2ContainerService-Caf-test-cluster-nov11-EcsSecurityGroup-G1RNEBRWXHA6", 
+            "GroupId": "sg-4a70dc31"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "192.168.1.38", 
+        "Association": {
+          "PublicIp": "34.241.31.135", 
+          "PublicDnsName": "", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1b"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0b008e47c42657e65", 
+          "AttachTime": "2017-11-11T13:58:35+00:00"
+        }
+      }, 
+      {
+        "DeviceName": "/dev/xvdcz", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-011fd08c91f5e36b5", 
+          "AttachTime": "2017-11-11T13:58:35+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJCPLUZCFP5DL5HWQ6", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/CAF-Test-IAM"
+    }, 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "EcsInstanceAsg", 
+        "Key": "aws:cloudformation:logical-id"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "This instance is the part of the Auto Scaling group which was created through ECS Console", 
+        "Key": "Description"
+      }, 
+      {
+        "Value": "EC2ContainerService-testing", 
+        "Key": "aws:cloudformation:stack-name"
+      }, 
+      {
+        "Value": "EC2ContainerService-testing-EcsInstanceAsg-X5YI7M00KKE7", 
+        "Key": "aws:autoscaling:groupName"
+      }, 
+      {
+        "Value": "ECS Instance - EC2ContainerService-testing", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "arn:aws:cloudformation:eu-west-1:342150685837:stack/EC2ContainerService-testing/4ff7ed50-c6e8-11e7-b0a6-500c4233b6d2", 
+        "Key": "aws:cloudformation:stack-id"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "", 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-02T08:57:33+00:00", 
+    "PrivateIpAddress": "172.31.30.201", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-27db9640", 
+    "StateTransitionReason": "User initiated (2017-11-10 13:22:49 GMT)", 
+    "InstanceId": "i-0ddb066fb26314583", 
+    "EnaSupport": true, 
+    "ImageId": "ami-acd005d5", 
+    "PrivateDnsName": "ip-172-31-30-201.eu-west-1.compute.internal", 
+    "KeyName": "awsKeyPair", 
+    "SecurityGroups": [
+      {
+        "GroupName": "NMB_Dev_SG", 
+        "GroupId": "sg-785d9603"
+      }
+    ], 
+    "ClientToken": "XRQam1509613052397", 
+    "SubnetId": "subnet-c557148c", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "06:31:48:f4:d1:76", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-27db9640", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-46cd8478", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-172-31-30-201.eu-west-1.compute.internal", 
+            "Primary": true, 
+            "PrivateIpAddress": "172.31.30.201"
+          }
+        ], 
+        "PrivateDnsName": "ip-172-31-30-201.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-1de1acf1", 
+          "AttachTime": "2017-11-02T08:57:33+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "NMB_Dev_SG", 
+            "GroupId": "sg-785d9603"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "SubnetId": "subnet-c557148c", 
+        "PrivateIpAddress": "172.31.30.201"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1c"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-08bcc65281f75b433", 
+          "AttachTime": "2017-11-02T08:57:33+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "NMB_dev3", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "enabled"
+    }, 
+    "PublicDnsName": "", 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-01T16:08:10+00:00", 
+    "PrivateIpAddress": "172.31.19.31", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-27db9640", 
+    "StateTransitionReason": "User initiated (2017-11-10 13:17:45 GMT)", 
+    "InstanceId": "i-00041e8ffe52196ea", 
+    "EnaSupport": true, 
+    "ImageId": "ami-acd005d5", 
+    "PrivateDnsName": "ip-172-31-19-31.eu-west-1.compute.internal", 
+    "KeyName": "awsKeyPair", 
+    "SecurityGroups": [
+      {
+        "GroupName": "NMB_Dev_SG", 
+        "GroupId": "sg-785d9603"
+      }
+    ], 
+    "ClientToken": "NirTz1509552489974", 
+    "SubnetId": "subnet-c557148c", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "06:b4:fe:f2:76:98", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-27db9640", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-5ab3fe64", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-172-31-19-31.eu-west-1.compute.internal", 
+            "Primary": true, 
+            "PrivateIpAddress": "172.31.19.31"
+          }
+        ], 
+        "PrivateDnsName": "ip-172-31-19-31.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-9a286b76", 
+          "AttachTime": "2017-11-01T16:08:10+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "NMB_Dev_SG", 
+            "GroupId": "sg-785d9603"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "SubnetId": "subnet-c557148c", 
+        "PrivateIpAddress": "172.31.19.31"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1c"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0f04cfba4bd698686", 
+          "AttachTime": "2017-11-01T16:08:11+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "NMB_Dev2", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "", 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-10-23T08:45:00+00:00", 
+    "PrivateIpAddress": "172.31.20.108", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-27db9640", 
+    "StateTransitionReason": "User initiated (2017-11-10 13:21:54 GMT)", 
+    "InstanceId": "i-073c2e4881f296481", 
+    "EnaSupport": true, 
+    "ImageId": "ami-acd005d5", 
+    "PrivateDnsName": "ip-172-31-20-108.eu-west-1.compute.internal", 
+    "KeyName": "NMB_Mobile", 
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-5", 
+        "GroupId": "sg-31a25f4a"
+      }
+    ], 
+    "ClientToken": "vuhJj1508748299969", 
+    "SubnetId": "subnet-c557148c", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "06:10:ce:6e:aa:ec", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-27db9640", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-39f86907", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-172-31-20-108.eu-west-1.compute.internal", 
+            "Primary": true, 
+            "PrivateIpAddress": "172.31.20.108"
+          }
+        ], 
+        "PrivateDnsName": "ip-172-31-20-108.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-03ad17ef", 
+          "AttachTime": "2017-10-23T08:45:00+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "launch-wizard-5", 
+            "GroupId": "sg-31a25f4a"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "SubnetId": "subnet-c557148c", 
+        "PrivateIpAddress": "172.31.20.108"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1c"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0640a0859c431fd26", 
+          "AttachTime": "2017-10-23T08:45:01+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "NMB_Mobile", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "enabled"
+    }, 
+    "PublicDnsName": "ec2-52-17-16-198.eu-west-1.compute.amazonaws.com", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-11T10:54:58+00:00", 
+    "PublicIpAddress": "52.17.16.198", 
+    "PrivateIpAddress": "10.0.1.117", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-e8cde88f", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-07d660315bbaae95b", 
+    "EnaSupport": true, 
+    "ImageId": "ami-13f7226a", 
+    "PrivateDnsName": "ip-10-0-1-117.eu-west-1.compute.internal", 
+    "SecurityGroups": [
+      {
+        "GroupName": "EC2ContainerService-NMBtest-EcsSecurityGroup-11J2MHJCAZDSJ", 
+        "GroupId": "sg-249a585f"
+      }
+    ], 
+    "ClientToken": "9d7549af-c1e0-4785-a9f1-707965b162f0_subnet-f945d5a2_1", 
+    "SubnetId": "subnet-f945d5a2", 
+    "InstanceType": "m4.large", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "0a:e3:cc:d3:cc:9e", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-e8cde88f", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-bad042ba", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-10-0-1-117.eu-west-1.compute.internal", 
+            "PrivateIpAddress": "10.0.1.117", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "52.17.16.198", 
+              "PublicDnsName": "ec2-52-17-16-198.eu-west-1.compute.amazonaws.com", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "PrivateDnsName": "ip-10-0-1-117.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-d54c703a", 
+          "AttachTime": "2017-11-11T10:54:58+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "EC2ContainerService-NMBtest-EcsSecurityGroup-11J2MHJCAZDSJ", 
+            "GroupId": "sg-249a585f"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "10.0.1.117", 
+        "SubnetId": "subnet-f945d5a2", 
+        "Association": {
+          "PublicIp": "52.17.16.198", 
+          "PublicDnsName": "ec2-52-17-16-198.eu-west-1.compute.amazonaws.com", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1a"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-04c12cda43bd28e0b", 
+          "AttachTime": "2017-11-11T10:54:59+00:00"
+        }
+      }, 
+      {
+        "DeviceName": "/dev/xvdcz", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0b011ad4285498ab3", 
+          "AttachTime": "2017-11-11T10:54:59+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJ34BUFC647MTDXLGY", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/ecsInstanceRole"
+    }, 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "EC2ContainerService-NMBtest-EcsInstanceAsg-1KADZHDBJVF1E", 
+        "Key": "aws:autoscaling:groupName"
+      }, 
+      {
+        "Value": "This instance is the part of the Auto Scaling group which was created through ECS Console", 
+        "Key": "Description"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "EcsInstanceAsg", 
+        "Key": "aws:cloudformation:logical-id"
+      }, 
+      {
+        "Value": "ECS Instance - EC2ContainerService-NMBtest", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "EC2ContainerService-NMBtest", 
+        "Key": "aws:cloudformation:stack-name"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "arn:aws:cloudformation:eu-west-1:342150685837:stack/EC2ContainerService-NMBtest/909e5dd0-bcc0-11e7-9683-500c423e34d2", 
+        "Key": "aws:cloudformation:stack-id"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "ec2-52-17-44-51.eu-west-1.compute.amazonaws.com", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-10-31T09:22:42+00:00", 
+    "PublicIpAddress": "52.17.44.51", 
+    "PrivateIpAddress": "172.31.27.65", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-27db9640", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-0be04238cb13f5070", 
+    "EnaSupport": true, 
+    "ImageId": "ami-acd005d5", 
+    "PrivateDnsName": "ip-172-31-27-65.eu-west-1.compute.internal", 
+    "KeyName": "Vineet Kundu", 
+    "SecurityGroups": [
+      {
+        "GroupName": "launch-wizard-6", 
+        "GroupId": "sg-06b07e7d"
+      }
+    ], 
+    "ClientToken": "Zkbhv1509441762314", 
+    "SubnetId": "subnet-c557148c", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "06:fd:3b:da:ae:20", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-27db9640", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-cf094df1", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-172-31-27-65.eu-west-1.compute.internal", 
+            "PrivateIpAddress": "172.31.27.65", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "52.17.44.51", 
+              "PublicDnsName": "ec2-52-17-44-51.eu-west-1.compute.amazonaws.com", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "PrivateDnsName": "ip-172-31-27-65.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-ccff8520", 
+          "AttachTime": "2017-10-31T09:22:42+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "launch-wizard-6", 
+            "GroupId": "sg-06b07e7d"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "172.31.27.65", 
+        "SubnetId": "subnet-c557148c", 
+        "Association": {
+          "PublicIp": "52.17.44.51", 
+          "PublicDnsName": "ec2-52-17-44-51.eu-west-1.compute.amazonaws.com", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1c"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0bccd11493d04f34b", 
+          "AttachTime": "2017-10-31T09:22:43+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "iOS Dev", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "ec2-34-240-149-212.eu-west-1.compute.amazonaws.com", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-10-12T08:39:15+00:00", 
+    "PublicIpAddress": "34.240.149.212", 
+    "PrivateIpAddress": "10.84.10.242", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-d9d19cbe", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-0bd2ff94f49f01fef", 
+    "EnaSupport": true, 
+    "ImageId": "ami-acd005d5", 
+    "PrivateDnsName": "ip-10-84-10-242.eu-west-1.compute.internal", 
+    "KeyName": "caf-keypair", 
+    "SecurityGroups": [
+      {
+        "GroupName": "slaver-ec2-test1", 
+        "GroupId": "sg-145b446c"
+      }
+    ], 
+    "ClientToken": "TIgWv1507765429610", 
+    "SubnetId": "subnet-c9c8b1ae", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "02:bd:99:72:4c:4c", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-d9d19cbe", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-04952a28", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-10-84-10-242.eu-west-1.compute.internal", 
+            "PrivateIpAddress": "10.84.10.242", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "34.240.149.212", 
+              "PublicDnsName": "ec2-34-240-149-212.eu-west-1.compute.amazonaws.com", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "PrivateDnsName": "ip-10-84-10-242.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-8ffa016e", 
+          "AttachTime": "2017-10-11T23:43:50+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "slaver-ec2-test1", 
+            "GroupId": "sg-145b446c"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "10.84.10.242", 
+        "SubnetId": "subnet-c9c8b1ae", 
+        "Association": {
+          "PublicIp": "34.240.149.212", 
+          "PublicDnsName": "ec2-34-240-149-212.eu-west-1.compute.amazonaws.com", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1b"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-06ad1638c86e836c2", 
+          "AttachTime": "2017-10-11T23:43:51+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJRLMJDAVVXDZ5H3O2", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/test-ecr-access"
+    }, 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "Test", 
+        "Key": "Name"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "", 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-02T11:50:20+00:00", 
+    "PrivateIpAddress": "10.84.10.238", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-d9d19cbe", 
+    "StateTransitionReason": "User initiated (2017-11-03 09:10:54 GMT)", 
+    "InstanceId": "i-055cc8ee2b8d7a2e8", 
+    "EnaSupport": true, 
+    "ImageId": "ami-acd005d5", 
+    "PrivateDnsName": "ip-10-84-10-238.eu-west-1.compute.internal", 
+    "KeyName": "caf-ssm", 
+    "SecurityGroups": [
+      {
+        "GroupName": "ssm-sec-grp", 
+        "GroupId": "sg-f9061481"
+      }
+    ], 
+    "ClientToken": "RArgf1507632998004", 
+    "SubnetId": "subnet-c9c8b1ae", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "02:3c:f7:4f:2b:f4", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-d9d19cbe", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-a512a689", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-10-84-10-238.eu-west-1.compute.internal", 
+            "Primary": true, 
+            "PrivateIpAddress": "10.84.10.238"
+          }
+        ], 
+        "PrivateDnsName": "ip-10-84-10-238.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-b0847351", 
+          "AttachTime": "2017-10-10T10:56:38+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "ssm-sec-grp", 
+            "GroupId": "sg-f9061481"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "SubnetId": "subnet-c9c8b1ae", 
+        "PrivateIpAddress": "10.84.10.238"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1b"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0efe908726c05a640", 
+          "AttachTime": "2017-10-10T10:56:39+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJ5LPBMXTYHITIKLQQ", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/caf-ssmrole"
+    }, 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "CAF-SSM", 
+        "Key": "Name"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "enabled"
+    }, 
+    "PublicDnsName": "ec2-34-252-203-242.eu-west-1.compute.amazonaws.com", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-11T11:05:10+00:00", 
+    "PublicIpAddress": "34.252.203.242", 
+    "PrivateIpAddress": "10.0.0.171", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-e8cde88f", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-07e1aca32cc7c06cb", 
+    "EnaSupport": true, 
+    "ImageId": "ami-13f7226a", 
+    "PrivateDnsName": "ip-10-0-0-171.eu-west-1.compute.internal", 
+    "SecurityGroups": [
+      {
+        "GroupName": "EC2ContainerService-NMBtest-EcsSecurityGroup-11J2MHJCAZDSJ", 
+        "GroupId": "sg-249a585f"
+      }
+    ], 
+    "ClientToken": "0990e373-74b8-476e-9dc8-c868ca535323_subnet-670a532e_1", 
+    "SubnetId": "subnet-670a532e", 
+    "InstanceType": "m4.large", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "06:ef:b4:f6:81:1e", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-e8cde88f", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-084d4836", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-10-0-0-171.eu-west-1.compute.internal", 
+            "PrivateIpAddress": "10.0.0.171", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "34.252.203.242", 
+              "PublicDnsName": "ec2-34-252-203-242.eu-west-1.compute.amazonaws.com", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "PrivateDnsName": "ip-10-0-0-171.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-a8bf9144", 
+          "AttachTime": "2017-11-11T11:05:10+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "EC2ContainerService-NMBtest-EcsSecurityGroup-11J2MHJCAZDSJ", 
+            "GroupId": "sg-249a585f"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "10.0.0.171", 
+        "SubnetId": "subnet-670a532e", 
+        "Association": {
+          "PublicIp": "34.252.203.242", 
+          "PublicDnsName": "ec2-34-252-203-242.eu-west-1.compute.amazonaws.com", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1c"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0c8a2c4a725ddbb90", 
+          "AttachTime": "2017-11-11T11:05:11+00:00"
+        }
+      }, 
+      {
+        "DeviceName": "/dev/xvdcz", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0e2970c38e97cd872", 
+          "AttachTime": "2017-11-11T11:05:11+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJ34BUFC647MTDXLGY", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/ecsInstanceRole"
+    }, 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "EcsInstanceAsg", 
+        "Key": "aws:cloudformation:logical-id"
+      }, 
+      {
+        "Value": "EC2ContainerService-NMBtest", 
+        "Key": "aws:cloudformation:stack-name"
+      }, 
+      {
+        "Value": "ECS Instance - EC2ContainerService-NMBtest", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "EC2ContainerService-NMBtest-EcsInstanceAsg-1KADZHDBJVF1E", 
+        "Key": "aws:autoscaling:groupName"
+      }, 
+      {
+        "Value": "This instance is the part of the Auto Scaling group which was created through ECS Console", 
+        "Key": "Description"
+      }, 
+      {
+        "Value": "arn:aws:cloudformation:eu-west-1:342150685837:stack/EC2ContainerService-NMBtest/909e5dd0-bcc0-11e7-9683-500c423e34d2", 
+        "Key": "aws:cloudformation:stack-id"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "", 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": true, 
+    "LaunchTime": "2017-10-11T19:42:36+00:00", 
+    "PrivateIpAddress": "172.31.45.9", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-27db9640", 
+    "StateTransitionReason": "User initiated (2017-10-27 08:53:47 GMT)", 
+    "InstanceId": "i-0a0e5ee646e525103", 
+    "EnaSupport": true, 
+    "ImageId": "ami-acd005d5", 
+    "PrivateDnsName": "ip-172-31-45-9.eu-west-1.compute.internal", 
+    "KeyName": "caf-keypair", 
+    "SecurityGroups": [
+      {
+        "GroupName": "nexus-sg", 
+        "GroupId": "sg-eb051793"
+      }
+    ], 
+    "ClientToken": "WVJNi1507633062938", 
+    "SubnetId": "subnet-b3bb3ee8", 
+    "InstanceType": "m4.large", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "0a:0b:7a:91:3c:ce", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-27db9640", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-cc95a3cd", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-172-31-45-9.eu-west-1.compute.internal", 
+            "Primary": true, 
+            "PrivateIpAddress": "172.31.45.9"
+          }
+        ], 
+        "PrivateDnsName": "ip-172-31-45-9.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-27dfa55b", 
+          "AttachTime": "2017-10-10T10:57:43+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "nexus-sg", 
+            "GroupId": "sg-eb051793"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "SubnetId": "subnet-b3bb3ee8", 
+        "PrivateIpAddress": "172.31.45.9"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1a"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0e97bfa22f3a08c2b", 
+          "AttachTime": "2017-10-10T10:57:44+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "Nexus", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "nexus-oss", 
+        "Key": "name"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "", 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-10T14:15:10+00:00", 
+    "PrivateIpAddress": "10.84.10.8", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-d9d19cbe", 
+    "StateTransitionReason": "User initiated (2017-11-10 23:33:23 GMT)", 
+    "InstanceId": "i-063b1618473265121", 
+    "EnaSupport": true, 
+    "ImageId": "ami-760aaa0f", 
+    "PrivateDnsName": "ip-10-84-10-8.eu-west-1.compute.internal", 
+    "KeyName": "slaver-test", 
+    "SecurityGroups": [
+      {
+        "GroupName": "default", 
+        "GroupId": "sg-66aab91e"
+      }
+    ], 
+    "ClientToken": "AMEwn1510323309839", 
+    "SubnetId": "subnet-6144c13a", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "0a:72:b9:2c:17:fa", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-d9d19cbe", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-97de4897", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-10-84-10-8.eu-west-1.compute.internal", 
+            "Primary": true, 
+            "PrivateIpAddress": "10.84.10.8"
+          }
+        ], 
+        "PrivateDnsName": "ip-10-84-10-8.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-51e5d6be", 
+          "AttachTime": "2017-11-10T14:15:10+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "default", 
+            "GroupId": "sg-66aab91e"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "SubnetId": "subnet-6144c13a", 
+        "PrivateIpAddress": "10.84.10.8"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1a"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0262d5af935163e7b", 
+          "AttachTime": "2017-11-10T14:15:10+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "1", 
+        "Key": "cloud-custodian"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "CSI-cloud-custodian", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "\u201cInstance stopped due to PublicIpAddress not allowed (CRON Job)\u201d", 
+        "Key": "custodian_public_ip_check"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "PublicDnsName": "", 
+    "Platform": "windows", 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-10-29T21:07:43+00:00", 
+    "PrivateIpAddress": "192.168.1.26", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-00fdac67", 
+    "StateTransitionReason": "User initiated (2017-10-30 19:17:33 GMT)", 
+    "InstanceId": "i-0163a8fe321f4b375", 
+    "EnaSupport": true, 
+    "ImageId": "ami-b7e93bce", 
+    "PrivateDnsName": "ip-192-168-1-26.eu-west-1.compute.internal", 
+    "KeyName": "caf-test-kp", 
+    "SecurityGroups": [
+      {
+        "GroupName": "CAF-Test-SG02", 
+        "GroupId": "sg-e759999c"
+      }
+    ], 
+    "ClientToken": "qQClO1509217232340", 
+    "SubnetId": "subnet-9fcf5fc4", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "0a:44:9c:9b:e1:92", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-00fdac67", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-59c80359", 
+        "PrivateIpAddresses": [
+          {
+            "Primary": true, 
+            "PrivateIpAddress": "192.168.1.26"
+          }
+        ], 
+        "SubnetId": "subnet-9fcf5fc4", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-48304ba7", 
+          "AttachTime": "2017-10-28T19:00:33+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "CAF-Test-SG02", 
+            "GroupId": "sg-e759999c"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "192.168.1.26"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1a"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/sda1", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-025a5f795d6ee4773", 
+          "AttachTime": "2017-10-28T19:00:33+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJCPLUZCFP5DL5HWQ6", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/CAF-Test-IAM"
+    }, 
+    "RootDeviceName": "/dev/sda1", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "CAF-Test-VM03", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-09T21:09:36+00:00", 
+    "PrivateIpAddress": "10.84.10.9", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-d9d19cbe", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-0558776ac63c814d4", 
+    "EnaSupport": true, 
+    "ImageId": "ami-760aaa0f", 
+    "PrivateDnsName": "ip-10-84-10-9.eu-west-1.compute.internal", 
+    "KeyName": "slaver-test", 
+    "SecurityGroups": [
+      {
+        "GroupName": "slaver-ec2-test1", 
+        "GroupId": "sg-145b446c"
+      }
+    ], 
+    "ClientToken": "gtKZs1510261775887", 
+    "SubnetId": "subnet-6144c13a", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "0a:76:0d:31:2e:a8", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-d9d19cbe", 
+        "Description": "Primary network interface", 
+        "NetworkInterfaceId": "eni-f0c349f0", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-10-84-10-9.eu-west-1.compute.internal", 
+            "Primary": true, 
+            "PrivateIpAddress": "10.84.10.9"
+          }
+        ], 
+        "PrivateDnsName": "ip-10-84-10-9.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-b8744557", 
+          "AttachTime": "2017-11-09T21:09:36+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "slaver-ec2-test1", 
+            "GroupId": "sg-145b446c"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "SubnetId": "subnet-6144c13a", 
+        "PrivateIpAddress": "10.84.10.9"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1a"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-04a610d20b9853c92", 
+          "AttachTime": "2017-11-09T21:09:37+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "CSI-AWSami", 
+        "Key": "Name"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "disabled"
+    }, 
+    "PublicDnsName": "", 
+    "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+    }, 
+    "State": {
+      "Code": 80, 
+      "Name": "stopped"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-01T15:53:08+00:00", 
+    "PrivateIpAddress": "172.31.17.121", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-27db9640", 
+    "StateTransitionReason": "User initiated (2017-11-10 13:22:08 GMT)", 
+    "InstanceId": "i-0d727e0837601b68c", 
+    "EnaSupport": true, 
+    "ImageId": "ami-acd005d5", 
+    "PrivateDnsName": "ip-172-31-17-121.eu-west-1.compute.internal", 
+    "KeyName": "awsKeyPair", 
+    "SecurityGroups": [
+      {
+        "GroupName": "NMB_Dev_SG", 
+        "GroupId": "sg-785d9603"
+      }
+    ], 
+    "ClientToken": "LbTOF1509551587490", 
+    "SubnetId": "subnet-c557148c", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "06:94:a8:1e:45:98", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-27db9640", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-68bcf156", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-172-31-17-121.eu-west-1.compute.internal", 
+            "Primary": true, 
+            "PrivateIpAddress": "172.31.17.121"
+          }
+        ], 
+        "PrivateDnsName": "ip-172-31-17-121.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-f81f5c14", 
+          "AttachTime": "2017-11-01T15:53:08+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "NMB_Dev_SG", 
+            "GroupId": "sg-785d9603"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "SubnetId": "subnet-c557148c", 
+        "PrivateIpAddress": "172.31.17.121"
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1c"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-067433fabea6bf8f3", 
+          "AttachTime": "2017-11-01T15:53:08+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAIATLZB2TTDASPLRAE", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/aws-elasticbeanstalk-ec2-role"
+    }, 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "NMB_Dev1", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "enabled"
+    }, 
+    "PublicDnsName": "", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-11T10:45:48+00:00", 
+    "PublicIpAddress": "52.211.68.113", 
+    "PrivateIpAddress": "192.168.1.14", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-00fdac67", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-097434d4f7fb5c4d1", 
+    "EnaSupport": true, 
+    "ImageId": "ami-d65dfbaf", 
+    "PrivateDnsName": "ip-192-168-1-14.eu-west-1.compute.internal", 
+    "KeyName": "GaneshS", 
+    "SecurityGroups": [
+      {
+        "GroupName": "EC2ContainerService-Caf-test-cluster-nov11-EcsSecurityGroup-G1RNEBRWXHA6", 
+        "GroupId": "sg-4a70dc31"
+      }
+    ], 
+    "ClientToken": "2976fd81-cb61-4ce3-b305-18c536072add_subnet-bdf876e6_1", 
+    "SubnetId": "subnet-bdf876e6", 
+    "InstanceType": "t2.micro", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "0a:30:66:65:84:aa", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-00fdac67", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-36d34136", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateIpAddress": "192.168.1.14", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "52.211.68.113", 
+              "PublicDnsName": "", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "SubnetId": "subnet-bdf876e6", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-35526eda", 
+          "AttachTime": "2017-11-11T10:45:48+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "EC2ContainerService-Caf-test-cluster-nov11-EcsSecurityGroup-G1RNEBRWXHA6", 
+            "GroupId": "sg-4a70dc31"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "192.168.1.14", 
+        "Association": {
+          "PublicIp": "52.211.68.113", 
+          "PublicDnsName": "", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1a"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-01728e449904dea8e", 
+          "AttachTime": "2017-11-11T10:45:49+00:00"
+        }
+      }, 
+      {
+        "DeviceName": "/dev/xvdcz", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-0c8058bbead6d0675", 
+          "AttachTime": "2017-11-11T10:45:49+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJCPLUZCFP5DL5HWQ6", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/CAF-Test-IAM"
+    }, 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "This instance is the part of the Auto Scaling group which was created through ECS Console", 
+        "Key": "Description"
+      }, 
+      {
+        "Value": "EC2ContainerService-Caf-test-cluster-nov11", 
+        "Key": "aws:cloudformation:stack-name"
+      }, 
+      {
+        "Value": "EC2ContainerService-Caf-test-cluster-nov11-EcsInstanceAsg-1HST572B4H15", 
+        "Key": "aws:autoscaling:groupName"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "Caf-test-cluster-nov11", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "EcsInstanceAsg", 
+        "Key": "aws:cloudformation:logical-id"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "arn:aws:cloudformation:eu-west-1:342150685837:stack/EC2ContainerService-Caf-test-cluster-nov11/6f17b730-c6cd-11e7-80c8-503ac9eaaa35", 
+        "Key": "aws:cloudformation:stack-id"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }, 
+  {
+    "Monitoring": {
+      "State": "enabled"
+    }, 
+    "PublicDnsName": "ec2-34-249-113-189.eu-west-1.compute.amazonaws.com", 
+    "State": {
+      "Code": 16, 
+      "Name": "running"
+    }, 
+    "EbsOptimized": false, 
+    "LaunchTime": "2017-11-11T10:53:01+00:00", 
+    "PublicIpAddress": "34.249.113.189", 
+    "PrivateIpAddress": "10.0.2.147", 
+    "ProductCodes": [], 
+    "VpcId": "vpc-e8cde88f", 
+    "StateTransitionReason": "", 
+    "InstanceId": "i-0b18ae24ba7620c17", 
+    "EnaSupport": true, 
+    "ImageId": "ami-13f7226a", 
+    "PrivateDnsName": "ip-10-0-2-147.eu-west-1.compute.internal", 
+    "SecurityGroups": [
+      {
+        "GroupName": "EC2ContainerService-NMBtest-EcsSecurityGroup-11J2MHJCAZDSJ", 
+        "GroupId": "sg-249a585f"
+      }
+    ], 
+    "ClientToken": "e6c73bb4-822c-4127-8108-4b216994fbe5_subnet-b10057d6_1", 
+    "SubnetId": "subnet-b10057d6", 
+    "InstanceType": "m4.large", 
+    "NetworkInterfaces": [
+      {
+        "Status": "in-use", 
+        "MacAddress": "02:e2:18:0a:de:d4", 
+        "SourceDestCheck": true, 
+        "VpcId": "vpc-e8cde88f", 
+        "Description": "", 
+        "NetworkInterfaceId": "eni-7a607e56", 
+        "PrivateIpAddresses": [
+          {
+            "PrivateDnsName": "ip-10-0-2-147.eu-west-1.compute.internal", 
+            "PrivateIpAddress": "10.0.2.147", 
+            "Primary": true, 
+            "Association": {
+              "PublicIp": "34.249.113.189", 
+              "PublicDnsName": "ec2-34-249-113-189.eu-west-1.compute.amazonaws.com", 
+              "IpOwnerId": "amazon"
+            }
+          }
+        ], 
+        "PrivateDnsName": "ip-10-0-2-147.eu-west-1.compute.internal", 
+        "Attachment": {
+          "Status": "attached", 
+          "DeviceIndex": 0, 
+          "DeleteOnTermination": true, 
+          "AttachmentId": "eni-attach-7e0c3e9f", 
+          "AttachTime": "2017-11-11T10:53:01+00:00"
+        }, 
+        "Groups": [
+          {
+            "GroupName": "EC2ContainerService-NMBtest-EcsSecurityGroup-11J2MHJCAZDSJ", 
+            "GroupId": "sg-249a585f"
+          }
+        ], 
+        "Ipv6Addresses": [], 
+        "OwnerId": "342150685837", 
+        "PrivateIpAddress": "10.0.2.147", 
+        "SubnetId": "subnet-b10057d6", 
+        "Association": {
+          "PublicIp": "34.249.113.189", 
+          "PublicDnsName": "ec2-34-249-113-189.eu-west-1.compute.amazonaws.com", 
+          "IpOwnerId": "amazon"
+        }
+      }
+    ], 
+    "SourceDestCheck": true, 
+    "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "eu-west-1b"
+    }, 
+    "Hypervisor": "xen", 
+    "c7n:MatchedFilters": [
+      "tag:MailerTest"
+    ], 
+    "BlockDeviceMappings": [
+      {
+        "DeviceName": "/dev/xvda", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-095d435e136299014", 
+          "AttachTime": "2017-11-11T10:53:01+00:00"
+        }
+      }, 
+      {
+        "DeviceName": "/dev/xvdcz", 
+        "Ebs": {
+          "Status": "attached", 
+          "DeleteOnTermination": true, 
+          "VolumeId": "vol-04b4966ab49f4ec7c", 
+          "AttachTime": "2017-11-11T10:53:01+00:00"
+        }
+      }
+    ], 
+    "Architecture": "x86_64", 
+    "RootDeviceType": "ebs", 
+    "IamInstanceProfile": {
+      "Id": "AIPAJ34BUFC647MTDXLGY", 
+      "Arn": "arn:aws:iam::342150685837:instance-profile/ecsInstanceRole"
+    }, 
+    "RootDeviceName": "/dev/xvda", 
+    "VirtualizationType": "hvm", 
+    "Tags": [
+      {
+        "Value": "ECS Instance - EC2ContainerService-NMBtest", 
+        "Key": "Name"
+      }, 
+      {
+        "Value": "P-8292", 
+        "Key": "ProjectNumber"
+      }, 
+      {
+        "Value": "EC2ContainerService-NMBtest", 
+        "Key": "aws:cloudformation:stack-name"
+      }, 
+      {
+        "Value": "EC2ContainerService-NMBtest-EcsInstanceAsg-1KADZHDBJVF1E", 
+        "Key": "aws:autoscaling:groupName"
+      }, 
+      {
+        "Value": "Sand", 
+        "Key": "Environment"
+      }, 
+      {
+        "Value": "EcsInstanceAsg", 
+        "Key": "aws:cloudformation:logical-id"
+      }, 
+      {
+        "Value": "This instance is the part of the Auto Scaling group which was created through ECS Console", 
+        "Key": "Description"
+      }, 
+      {
+        "Value": "arn:aws:cloudformation:eu-west-1:342150685837:stack/EC2ContainerService-NMBtest/909e5dd0-bcc0-11e7-9683-500c423e34d2", 
+        "Key": "aws:cloudformation:stack-id"
+      }
+    ], 
+    "AmiLaunchIndex": 0
+  }
+]

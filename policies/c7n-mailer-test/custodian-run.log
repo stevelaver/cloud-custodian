@@ -1,0 +1,21 @@
+2017-11-13 10:31:57,759 - custodian.policy - INFO - policy: c7n-mailer-test resource:sqs region:eu-west-1 count:1 time:0.16
+2017-11-13 10:31:58,468 - custodian.actions - INFO - sent message:bf636473-248a-409e-b83a-b7c4a2e7af41 policy:c7n-mailer-test template:default count:1
+2017-11-13 10:31:58,469 - custodian.policy - INFO - policy: c7n-mailer-test action: notify resources: 1 execution_time: 0.71
+2017-11-13 14:04:22,542 - custodian.policy - INFO - policy: c7n-mailer-test resource:sqs region:eu-west-1 count:1 time:0.27
+2017-11-13 14:04:23,136 - custodian.actions - INFO - sent message:cf6d5cda-dd3f-405b-a968-a2b6eb08cc98 policy:c7n-mailer-test template:default count:1
+2017-11-13 14:04:23,137 - custodian.policy - INFO - policy: c7n-mailer-test action: notify resources: 1 execution_time: 0.59
+2017-11-13 14:10:44,191 - custodian.policy - INFO - policy: c7n-mailer-test resource:sqs region:eu-west-1 count:1 time:0.00
+2017-11-13 14:10:44,711 - custodian.actions - INFO - sent message:6197c6b9-555c-4bef-8ba8-e4f04dd3496a policy:c7n-mailer-test template:default count:1
+2017-11-13 14:10:44,711 - custodian.policy - INFO - policy: c7n-mailer-test action: notify resources: 1 execution_time: 0.52
+2017-11-13 14:10:57,734 - custodian.policy - INFO - policy: c7n-mailer-test resource:sqs region:eu-west-1 count:1 time:0.00
+2017-11-13 14:10:58,322 - custodian.actions - INFO - sent message:8188748f-3b6c-42f1-a3d1-92254247b125 policy:c7n-mailer-test template:default count:1
+2017-11-13 14:10:58,323 - custodian.policy - INFO - policy: c7n-mailer-test action: notify resources: 1 execution_time: 0.59
+2017-11-13 14:21:01,332 - custodian.policy - INFO - policy: c7n-mailer-test resource:sqs region:eu-west-1 count:1 time:0.15
+2017-11-13 14:21:01,914 - custodian.actions - INFO - sent message:c6185c20-2ce6-49ba-b0b7-2bef4bad73f4 policy:c7n-mailer-test template:default count:1
+2017-11-13 14:21:01,914 - custodian.policy - INFO - policy: c7n-mailer-test action: notify resources: 1 execution_time: 0.58
+2017-11-13 15:05:50,181 - custodian.policy - INFO - policy: c7n-mailer-test resource:ec2 region:eu-west-1 count:22 time:0.29
+2017-11-13 15:05:50,674 - custodian.actions - INFO - sent message:0d30c546-91cb-4cf4-890c-2e1575ae5603 policy:c7n-mailer-test template:default count:22
+2017-11-13 15:05:50,674 - custodian.policy - INFO - policy: c7n-mailer-test action: notify resources: 22 execution_time: 0.49
+2017-11-13 15:23:53,398 - custodian.policy - INFO - policy: c7n-mailer-test resource:ec2 region:eu-west-1 count:22 time:0.49
+2017-11-13 15:23:54,011 - custodian.actions - INFO - sent message:b0368711-0d1c-464b-8c56-ca3e667b08cb policy:c7n-mailer-test template:default count:22
+2017-11-13 15:23:54,012 - custodian.policy - INFO - policy: c7n-mailer-test action: notify resources: 22 execution_time: 0.61
